@@ -1,6 +1,6 @@
-# docker-compose -f selenium-grid.yml up --scale chrome=1 --remove-orphans -d
-# docker-compose -f selenium-grid.yml down --remove-orphans
-# http://localhost:4444/grid/console
+#start: at the root directory; run the following: "docker-compose -f src/main/resources/docker-compose.yml up --scale chrome=1 --remove-orphans -d"
+#end: at the root directory; run the following: "docker-compose -f src/main/resources/docker-compose.yml down --remove-orphans"
+#open the following url to monitor: http://localhost:4444/grid/console
 
 version: '3.7'
 services:

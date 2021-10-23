@@ -23,7 +23,7 @@ jobs:
           node-version: '16'
       - name: Set up Native Selenium Grid
         if: runner.os == 'Linux'
-        run: docker-compose -f src/test/resources/selenium-grid.yml up --scale chrome=2 --remove-orphans -d
+        run: docker-compose -f src/main/resources/docker-compose.yml up --scale chrome=2 --remove-orphans -d
       - name: Set up JDK 17
         uses: actions/setup-java@v2
         with:
