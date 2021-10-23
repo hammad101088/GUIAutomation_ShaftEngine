@@ -1,0 +1,5 @@
+/.idea/
+/allure-results/
+/extent-reports/
+/target/
+/generate_allure_report.sh
