@@ -23,23 +23,23 @@ This is a simple automation project for testing [OrangeHRM](https://opensource-d
 
 
 # Run the Test
-## 1. Locally
+## 1. LOCALLY
 Prerequisites: jdk-17 and maven should be installed
 
-### 1.1 Run the Test LOCALLY using Eclipse IDE
+### 1.1 Run the Test locally using Eclipse IDE
 
 * Import this project to your eclipse.
 * Run the test cases/classes
 * The report will be generated automatically after running the test.
 
-### 1.2 Run the Test LOCALLY using IntelliJ IDEA
+### 1.2 Run the Test locally using IntelliJ IDEA
 
 * Import this project to your intellij.
 * Kindly, refere to this [link](https://github.com/MohabMohie/using_SHAFT_ENGINE) and follow the steps to add the listeners in intellij.
 * Run the test cases/classes
 * The report will be generated automatically after running the test.
 
-### 1.3 Run the Test LOCALLY using the Terminal or CMD
+### 1.3 Run the Test locally using the Terminal or CMD
 
 * Clone or download the project.
 * At the root directory of the project (e.g. downloads/projectName/); run the following command ```mvn test```
@@ -50,9 +50,10 @@ Prerequisites: jdk-17 and maven should be installed
 #### Important Note (for local execution):
 - By default the report will be automatically generated, but you can check the result of the the test by running "generate_allure_report.bat" or "generate_allure_report.sh" files.
 
-## 2. Remotly
+## 2. REMOTELY
+Prerequisites: Docker should be installed
 
-### 2.1. Run the Test REMOTLY using Selenium-Grid and Docker 
+### 2.1. Run the Test remotely using Selenium-Grid and Docker 
 * Clone or download the project.
 * To start selenium-grid using docker-compose; at the root directory of the project, run the following command <br />
 ```
