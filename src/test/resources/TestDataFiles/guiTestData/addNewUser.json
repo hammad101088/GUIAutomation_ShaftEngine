@@ -1,0 +1,14 @@
+{
+  "TestAddingNewUser_validInputData_shouldBeAccepted":{
+   "login": {
+     "userName": "Admin",
+     "password": "admin123"
+   } ,
+    "addUser": {
+      "employeeName": "Sai Kumar",
+      "userName":"testUserName",
+      "password": "admin123",
+      "confirmPassword": "admin123"
+    }
+  }
+}
