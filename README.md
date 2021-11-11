@@ -29,7 +29,7 @@ Prerequisites: jdk-17 and maven should be installed
 ### 1.1 Run the Test locally using Eclipse IDE
 
 * Import this project to your eclipse.
-* Run the test cases/classes
+* Run the test cases/classes.
 * The report will be generated automatically after running the test.
 
 ### 1.2 Run the Test locally using IntelliJ IDEA
