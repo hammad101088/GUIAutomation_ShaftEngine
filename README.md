@@ -1,3 +1,5 @@
+[![Desktop Browsers Tests](https://github.com/hammad101088/TestAutomationTask/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/hammad101088/TestAutomationTask/actions/workflows/continuous-integration.yml)
+
 # Test Automation Task
 
 This is a simple automation project for testing [OrangeHRM](https://opensource-demo.orangehrmlive.com/) website.
